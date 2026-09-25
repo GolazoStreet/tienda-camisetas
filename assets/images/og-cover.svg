@@ -1,0 +1,8 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f2818" />
+  <rect width="1200" height="630" fill="none" />
+  <text x="80" y="300" font-family="Arial, sans-serif" font-weight="800" font-size="110" fill="#ffffff">GolazoStreet</text>
+  <text x="80" y="370" font-family="Arial, sans-serif" font-weight="400" font-size="34" fill="#ffb627">Camisetas de fútbol para quien vive cada partido</text>
+  <circle cx="1040" cy="300" r="150" fill="#1b4332" />
+  <text x="1040" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="140" fill="#ffb627">67</text>
+</svg>

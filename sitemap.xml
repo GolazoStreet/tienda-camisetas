@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  IMPORTANTE: sustituye "https://TU_USUARIO.github.io/TU_REPOSITORIO"
+  por la URL real de tu web en GitHub Pages (la que verás tras seguir
+  los pasos del README). Añade una línea <url> por cada camiseta que
+  publiques, usando el mismo patrón que las de ejemplo.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://TU_USUARIO.github.io/TU_REPOSITORIO/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://TU_USUARIO.github.io/TU_REPOSITORIO/productos.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://TU_USUARIO.github.io/TU_REPOSITORIO/contacto.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://TU_USUARIO.github.io/TU_REPOSITORIO/producto.html?id=realmadrid-1a</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

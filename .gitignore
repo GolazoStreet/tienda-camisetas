@@ -1,0 +1,7 @@
+# Dependencias locales, si alguna vez instalas algo con npm
+node_modules/
+
+# Archivos locales de Netlify CLI (nunca deben subirse)
+.netlify/
+.env
+.env.*

@@ -1,0 +1,13 @@
+# netlify.toml
+# -----------------------------------------------------------------------
+# Le dice a Netlify dos cosas:
+#  1. "publish": la web en sí (todos los archivos estáticos) está en la
+#     raíz del proyecto, igual que estaba configurada en GitHub Pages.
+#  2. "functions": dónde está la única función serverless de la tienda
+#     (netlify/functions/crear-sesion-stripe.js), la que crea el pago
+#     con tarjeta. No necesitas tocar este archivo para nada más.
+# -----------------------------------------------------------------------
+
+[build]
+  publish = "."
+  functions = "netlify/functions"

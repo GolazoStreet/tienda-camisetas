@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Camiseta — GolazoStreet</title>
+  <meta name="description" id="page-description" content="Detalle de camiseta de fútbol en GolazoStreet." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="assets/images/brand-icon.png" alt="" class="brand-icon" width="36" height="36" />
+        <span data-store-name>GolazoStreet</span>
+      </a>
+
+      <nav class="main-nav" id="menu-principal">
+        <ul>
+          <li><a href="index.html" data-nav="index.html">Inicio</a></li>
+          <li><a href="productos.html" data-nav="productos.html">Todas las camisetas</a></li>
+          <li><a href="productos.html?oferta=1" data-nav="productos.html?oferta=1">Ofertas</a></li>
+          <li><a href="contacto.html" data-nav="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="carrito.html" class="icon-btn" aria-label="Ver carrito">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 8H6" /><circle cx="10" cy="21" r="1.4" /><circle cx="18" cy="21" r="1.4" /></svg>
+          <span class="cart-count" data-cart-count style="display:none">0</span>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-banner">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a href="index.html">Inicio</a> / <a href="productos.html">Camisetas</a> / <span id="breadcrumb-equipo">Producto</span>
+      </div>
+      <h1 id="banner-titulo">Cargando…</h1>
+    </div>
+  </div>
+
+  <main id="contenido-principal">
+    <section class="section" style="padding-top: var(--space-7);">
+      <div class="container" id="detalle-contenedor">
+        <!-- Se rellena por JS. Si no existe el producto, se muestra un aviso. -->
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;" id="relacionados-seccion" hidden>
+      <div class="container">
+        <div class="section-head related-heading">
+          <div>
+            <span class="eyebrow">También te puede interesar</span>
+            <h2>Más de esta liga</h2>
+          </div>
+        </div>
+        <div class="product-grid" id="relacionados-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar imagen">×</button>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="assets/images/brand-icon.png" alt="" class="brand-icon" width="36" height="36" />
+            <span data-store-name>GolazoStreet</span>
+          </a>
+          <p>Camisetas de fútbol de ligas europeas, selecciones y ediciones retro.</p>
+          <div class="footer-social">
+            <a href="#" data-social="instagram" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
+            </a>
+            <a href="#" data-social="tiktok" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46" /><path d="M14 4c.5 2.5 2.2 4 4.5 4.2" /></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Tienda</h4>
+          <ul>
+            <li><a href="productos.html">Todas las camisetas</a></li>
+            <li><a href="index.html#ligas">Ligas</a></li>
+            <li><a href="productos.html?oferta=1">Ofertas</a></li>
+            <li><a href="carrito.html">Mi carrito</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="contacto.html">Cambios y devoluciones</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="pages/terminos.html">Términos y condiciones</a></li>
+            <li><a href="pages/devoluciones.html">Política de devoluciones</a></li>
+            <li><a href="pages/cookies.html">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-store-year>2026</span> <span data-store-name>GolazoStreet</span>. Todos los derechos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/jersey-svg.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/product-render.js"></script>
+  <script src="js/payments.js"></script>
+  <script src="js/product-detail.js"></script>
+</body>
+</html>
