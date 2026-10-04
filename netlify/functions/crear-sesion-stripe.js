@@ -32,6 +32,7 @@
 const { PRODUCTOS } = require("../../js/products-data.js");
 const CONFIG = require("../../js/config.js");
 const { DatosEnvio } = require("../../js/shipping-data.js");
+const { calcularDescuentoPorCantidad } = require("../../js/discounts.js");
 
 /** Misma lógica de gastos de envío que js/cart-page.js (calcularEnvio). Si
  * cambias los tramos de envío ahí, cámbialos también aquí para que
@@ -157,6 +158,15 @@ exports.handler = async (event) => {
 
   const envio = calcularEnvio(totalUnidades);
 
+  // Descuento por cantidad: se recalcula AQUÍ, con los precios reales del
+  // catálogo, y nunca con lo que diga el navegador. Se calcula en céntimos
+  // para evitar errores de decimales.
+  const subtotalCentimos = lineasValidadas.reduce(
+    (suma, linea) => suma + Math.round(linea.precioUnidad * 100) * linea.cantidad,
+    0
+  );
+  const descuento = calcularDescuentoPorCantidad(totalUnidades, subtotalCentimos / 100);
+
   // Construye los line_items para Stripe: uno por artículo del carrito, más
   // uno para el envío (si hay coste). Los céntimos deben ser un número
   // entero (Stripe trabaja siempre en la unidad más pequeña de la moneda).
@@ -184,6 +194,39 @@ exports.handler = async (event) => {
   // las URLs de vuelta tras el pago. Netlify lo rellena solo.
   const origen = `https://${event.headers.host}`;
 
+  // Stripe no admite importes negativos en las líneas del pedido, así que el
+  // descuento se aplica con un cupón de un solo uso creado al momento.
+  let cuponId = null;
+  if (descuento > 0) {
+    try {
+      const respuestaCupon = await fetch("https://api.stripe.com/v1/coupons", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${claveSecreta}`,
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams(
+          aParametrosStripe({
+            amount_off: Math.round(descuento * 100),
+            currency: "eur",
+            duration: "once",
+            max_redemptions: 1,
+            name: `Descuento por cantidad (${totalUnidades} artículos)`,
+          })
+        ).toString(),
+      });
+      const cupon = await respuestaCupon.json();
+      if (!respuestaCupon.ok || !cupon.id) {
+        console.error("Error de Stripe al crear el cupón:", cupon.error);
+        return { statusCode: 502, body: JSON.stringify({ error: "No se pudo aplicar el descuento. Inténtalo de nuevo." }) };
+      }
+      cuponId = cupon.id;
+    } catch (error) {
+      console.error("Error al contactar con Stripe (cupón):", error);
+      return { statusCode: 502, body: JSON.stringify({ error: "No se pudo aplicar el descuento. Inténtalo de nuevo." }) };
+    }
+  }
+
   const cuerpoSesion = {
     mode: "payment",
     locale: "es",
@@ -191,6 +234,7 @@ exports.handler = async (event) => {
     success_url: `${origen}/pedido-confirmado.html?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${origen}/carrito.html`,
     line_items: lineItems,
+    discounts: cuponId ? [{ coupon: cuponId }] : undefined,
     // Los datos de envío no se cobran ni se validan como precio, pero
     // quedan guardados junto al pago en el panel de Stripe (Payments →
     // el pago en concreto → "Metadata") para que sepas dónde enviar el
@@ -204,6 +248,7 @@ exports.handler = async (event) => {
       ciudad: datosEnvio.ciudad,
       provincia: datosEnvio.provincia,
       codigoPostal: datosEnvio.codigoPostal,
+      descuento_por_cantidad_eur: descuento > 0 ? descuento.toFixed(2) : undefined,
     },
   };
 

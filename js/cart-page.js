@@ -172,7 +172,8 @@ function renderizarCarrito() {
   const subtotal = Carrito.subtotal();
   const totalUnidades = Carrito.totalUnidades();
   const envio = calcularEnvio(totalUnidades);
-  const total = subtotal + envio;
+  const descuento = calcularDescuentoPorCantidad(totalUnidades, subtotal);
+  const total = subtotal - descuento + envio;
 
   contenedor.innerHTML = `
     <div class="shipping-form" id="shipping-form">
@@ -185,9 +186,11 @@ function renderizarCarrito() {
       <aside class="cart-summary">
         <h3>Resumen del pedido</h3>
         <div class="summary-row"><span>Subtotal</span><span id="resumen-subtotal"></span></div>
+        <div class="summary-row summary-discount" id="resumen-descuento-fila" hidden><span id="resumen-descuento-texto">Descuento por cantidad</span><span id="resumen-descuento"></span></div>
         <div class="summary-row"><span>Envío</span><span id="resumen-envio"></span></div>
         <p class="summary-shipping-note" id="resumen-envio-nota"></p>
         <div class="summary-row total"><span>Total</span><span id="resumen-total"></span></div>
+        <p class="discount-nudge" id="descuento-aviso" hidden></p>
 
         <div class="payment-options">
           <button class="btn btn-outline btn-block" id="btn-pagar-tarjeta">Pagar con tarjeta</button>
@@ -214,13 +217,30 @@ function renderizarCarrito() {
   document.getElementById("resumen-envio-nota").textContent = textoEnvio(totalUnidades, envio);
   document.getElementById("resumen-total").textContent = formatearPrecio(total);
 
+  // Descuento por cantidad: fila en el resumen + aviso para animar a llevar más.
+  if (descuento > 0) {
+    document.getElementById("resumen-descuento-fila").hidden = false;
+    document.getElementById("resumen-descuento-texto").textContent = `Descuento (${totalUnidades} camisetas)`;
+    document.getElementById("resumen-descuento").textContent = "−" + formatearPrecio(descuento);
+  }
+  const avisoDescuento = document.getElementById("descuento-aviso");
+  const siguienteTramo = siguienteTramoDescuento(totalUnidades);
+  if (siguienteTramo) {
+    const plural = siguienteTramo.faltan === 1 ? "camiseta" : "camisetas";
+    avisoDescuento.textContent = `¡Añade ${siguienteTramo.faltan} ${plural} más y ahorra ${formatoEuros(siguienteTramo.descuento)} en el total!`;
+    avisoDescuento.hidden = false;
+  } else if (descuento > 0) {
+    avisoDescuento.textContent = `¡Has conseguido el máximo descuento: ${formatoEuros(descuento)}!`;
+    avisoDescuento.hidden = false;
+  }
+
   document.getElementById("btn-pagar-paypal").addEventListener("click", async (e) => {
     const datosEnvio = datosEnvioValidosOAvisar();
     if (!datosEnvio) return;
     const boton = e.currentTarget;
     boton.disabled = true;
     boton.textContent = "Abriendo PayPal…";
-    await iniciarPagoPayPal(datosEnvio, lineas, envio, total);
+    await iniciarPagoPayPal(datosEnvio, lineas, envio, total, descuento);
     boton.disabled = false;
     boton.textContent = "Pagar con PayPal";
   });
@@ -228,7 +248,7 @@ function renderizarCarrito() {
   document.getElementById("btn-pagar-revolut").addEventListener("click", () => {
     const datosEnvio = datosEnvioValidosOAvisar();
     if (!datosEnvio) return;
-    iniciarPedidoRevolut(datosEnvio, lineas, envio, total);
+    iniciarPedidoRevolut(datosEnvio, lineas, envio, total, descuento);
   });
 
   const botonTarjeta = document.getElementById("btn-pagar-tarjeta");

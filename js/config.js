@@ -50,6 +50,19 @@ const CONFIG = {
   // 1 camiseta = envioUnaCamiseta · 2 camisetas = envioDosCamisetas · 3 o más = gratis.
   envioUnaCamiseta: 3,
   envioDosCamisetas: 2,
+
+  // Descuento por cantidad: se resta del TOTAL de los artículos del pedido
+  // (no de los gastos de envío). Cada tramo dice "a partir de X unidades, se
+  // rebajan Y euros". Se aplica el tramo más alto que se alcance, así que con
+  // 5 o más unidades seguirían siendo 20 €. Para cambiar la oferta, edita estos
+  // números (o añade/quita tramos); la barra superior, la ficha de producto, el
+  // carrito y el pago con tarjeta se actualizan solos. Para quitar la oferta
+  // entera, deja la lista vacía: descuentosPorCantidad: [].
+  descuentosPorCantidad: [
+    { unidades: 2, descuento: 10 },
+    { unidades: 3, descuento: 20 },
+    { unidades: 4, descuento: 30 },
+  ],
 };
 
 /**

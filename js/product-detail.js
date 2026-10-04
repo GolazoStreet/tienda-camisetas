@@ -106,6 +106,7 @@ function construirDetalle(producto) {
         <p class="detail-subname">${escaparHTML(producto.nombre)}</p>
 
         <div class="detail-price">${pintarPrecio(producto)}</div>
+        ${htmlOfertaCantidad()}
 
         <div class="detail-desc">
           <p>${escaparHTML(producto.descripcion)}</p>

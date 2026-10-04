@@ -69,7 +69,7 @@ function textoDatosEnvio(datosEnvio) {
 }
 
 /** Construye un resumen de texto legible de un pedido, para el formulario de contacto. */
-function resumenPedidoTexto(lineas, envio, total) {
+function resumenPedidoTexto(lineas, envio, total, descuento = 0) {
   const filas = lineas
     .map((l) => {
       const extras = [];
@@ -86,7 +86,8 @@ function resumenPedidoTexto(lineas, envio, total) {
     })
     .join("\n");
   const envioTexto = envio === 0 ? "Gratis" : formatearPrecio(envio);
-  return `Resumen de mi pedido:\n${filas}\n\nEnvío: ${envioTexto}\nTotal: ${formatearPrecio(total)}`;
+  const descuentoTexto = descuento > 0 ? `Descuento por cantidad: -${formatearPrecio(descuento)}\n` : "";
+  return `Resumen de mi pedido:\n${filas}\n\n${descuentoTexto}Envío: ${envioTexto}\nTotal: ${formatearPrecio(total)}`;
 }
 
 /**
@@ -101,11 +102,11 @@ function resumenPedidoTexto(lineas, envio, total) {
  * navegador), así que si este aviso no llega, siempre puedes pedírselos
  * de nuevo por email a partir de la confirmación del pago.
  */
-async function enviarNotificacionPedido(datosEnvio, lineas, envio, total, metodoPago) {
+async function enviarNotificacionPedido(datosEnvio, lineas, envio, total, metodoPago, descuento = 0) {
   const endpoint = (typeof CONFIG !== "undefined" && CONFIG.formEndpoint) || "";
   if (!endpoint || endpoint.includes("TU_ID_DE_FORMSPREE")) return false;
 
-  const mensaje = `${textoDatosEnvio(datosEnvio)}\n\n${resumenPedidoTexto(lineas, envio, total)}`;
+  const mensaje = `${textoDatosEnvio(datosEnvio)}\n\n${resumenPedidoTexto(lineas, envio, total, descuento)}`;
 
   try {
     const respuesta = await fetch(endpoint, {
@@ -129,15 +130,15 @@ async function enviarNotificacionPedido(datosEnvio, lineas, envio, total, metodo
  * Abre el flujo de pago con PayPal.me para un importe y avisa por email
  * (con la dirección de envío) antes de abrir la pestaña de PayPal.
  */
-async function iniciarPagoPayPal(datosEnvio, lineas, envio, total) {
-  await enviarNotificacionPedido(datosEnvio, lineas, envio, total, "PayPal");
+async function iniciarPagoPayPal(datosEnvio, lineas, envio, total, descuento = 0) {
+  await enviarNotificacionPedido(datosEnvio, lineas, envio, total, "PayPal", descuento);
   const url = enlacePayPalMe(total);
   window.open(url, "_blank", "noopener,noreferrer");
 }
 
 /** Redirige al formulario de contacto con el pedido y los datos de envío precargados, para solicitar el pago por Revolut. */
-function iniciarPedidoRevolut(datosEnvio, lineas, envio, total) {
-  const resumen = `${textoDatosEnvio(datosEnvio)}\n\n${resumenPedidoTexto(lineas, envio, total)}\n\n(Indícame por favor el enlace de pago de Revolut para completar la compra.)`;
+function iniciarPedidoRevolut(datosEnvio, lineas, envio, total, descuento = 0) {
+  const resumen = `${textoDatosEnvio(datosEnvio)}\n\n${resumenPedidoTexto(lineas, envio, total, descuento)}\n\n(Envianos este mensaje y te envíamos el enlace por el mismo correo que has indicado al hacer la compra)`;
   const params = new URLSearchParams({
     asunto: "Pedido — pago con Revolut",
     mensaje: resumen,

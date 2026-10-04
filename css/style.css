@@ -492,60 +492,18 @@ input, select, textarea {
 
 .hero-full {
   position: relative;
-  overflow: hidden;
-  background: linear-gradient(135deg, var(--pitch) 0%, var(--pitch-dark) 70%);
-  padding: var(--space-9) var(--space-5);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  min-height: 460px;
-}
-
-.hero-full-bg {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  z-index: 0;
-}
-
-.hfb-stripe {
-  position: absolute;
-  width: 200%;
-  left: -50%;
-  transform: rotate(-8deg);
-}
-
-.hfb-stripe-1 {
-  height: 70px;
-  top: 4%;
-  background: var(--gold);
-  opacity: 0.12;
-}
-
-.hfb-stripe-2 {
-  height: 120px;
-  bottom: -6%;
-  background: var(--pitch-light);
-  opacity: 0.45;
-}
-
-.hfb-ghost {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-family: var(--font-display);
-  font-size: min(60vw, 620px);
-  color: rgba(255, 255, 255, 0.04);
-  line-height: 1;
-  user-select: none;
+  background: linear-gradient(180deg, #0a1f13 0%, var(--pitch-dark) 100%);
 }
 
 .hero-full-content {
   position: relative;
-  z-index: 1;
-  max-width: 720px;
+  z-index: 2;
+  max-width: 860px;
+  padding: var(--space-6) var(--space-5) var(--space-6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -559,10 +517,11 @@ input, select, textarea {
 .hero-full-title {
   font-family: var(--font-display);
   color: var(--white);
-  font-size: clamp(2.2rem, 6vw, 4rem);
+  font-size: clamp(2.3rem, 6vw, 4.2rem);
   line-height: 1.02;
   margin-top: var(--space-4);
   letter-spacing: 0.01em;
+  text-wrap: balance;
 }
 
 .hero-full-title span {
@@ -571,13 +530,14 @@ input, select, textarea {
 
 .hero-full-sub {
   margin-top: var(--space-4);
-  color: rgba(239, 242, 236, 0.85);
-  font-size: clamp(0.9rem, 2vw, 1.05rem);
-  max-width: 560px;
+  color: rgba(239, 242, 236, 0.92);
+  font-size: clamp(0.88rem, 1.5vw, 1rem);
+  line-height: 1.55;
+  max-width: 780px;
 }
 
 .hero-full-actions {
-  margin-top: var(--space-6);
+  margin-top: var(--space-5);
   display: flex;
   gap: var(--space-4);
   flex-wrap: wrap;
@@ -589,12 +549,27 @@ input, select, textarea {
   font-size: 1rem;
 }
 
+/* La foto se ve siempre entera: ni se recorta ni se deforma, solo se
+   escala al ancho disponible. Su altura la marca su propia proporción. */
+.hero-full-photo {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .hero-full-stats {
-  margin-top: var(--space-7);
+  position: relative;
+  z-index: 2;
+  width: 100%;
   display: flex;
   gap: var(--space-7);
   flex-wrap: wrap;
   justify-content: center;
+  padding: var(--space-4) var(--space-5);
+  background: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .hero-full-stats div {
@@ -605,22 +580,21 @@ input, select, textarea {
 
 .hero-full-stats strong {
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   color: var(--gold);
 }
 
 .hero-full-stats span {
-  font-size: 0.75rem;
-  color: rgba(239, 242, 236, 0.75);
+  font-size: 0.72rem;
+  color: rgba(239, 242, 236, 0.8);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-top: 2px;
 }
 
 @media (max-width: 640px) {
-  .hero-full {
-    min-height: 0;
-    padding: var(--space-8) var(--space-4);
+  .hero-full-content {
+    padding: var(--space-5) var(--space-4) var(--space-5);
   }
 
   .hero-full-actions {
@@ -634,10 +608,10 @@ input, select, textarea {
 
   .hero-full-stats {
     gap: var(--space-5);
+    padding: var(--space-3) var(--space-4);
   }
 }
 
-/* ==========================================================================
 /* ==========================================================================
    Categorías (ligas)
    ========================================================================== */
@@ -1376,6 +1350,175 @@ input, select, textarea {
 
 .detail-price .price-now {
   font-size: 2rem;
+}
+
+/* Oferta por cantidad ------------------------------------------------- */
+.promo-bar {
+  background: var(--gold);
+  color: var(--ink);
+  font-size: 0.82rem;
+  line-height: 1.3;
+  padding: 0.55rem var(--space-4);
+  text-align: center;
+}
+
+.promo-bar-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem 1rem;
+}
+
+.promo-bar-label {
+  background: var(--ink);
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2em 0.7em;
+  border-radius: 999px;
+}
+
+.promo-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem 1rem;
+}
+
+.promo-tier {
+  white-space: nowrap;
+}
+
+.promo-save {
+  background: rgba(0, 0, 0, 0.12);
+  padding: 0.1em 0.45em;
+  border-radius: 4px;
+}
+
+.promo-bar-note {
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+  .promo-bar {
+    font-size: 0.74rem;
+    padding: 0.5rem var(--space-3);
+  }
+
+  .promo-bar-inner {
+    gap: 0.35rem 0.6rem;
+  }
+
+  /* Línea 1: etiqueta + "en el total de tu pedido". Línea 2: los tres tramos en columnas iguales. */
+  .promo-bar-label {
+    order: 1;
+  }
+
+  .promo-bar-note {
+    order: 2;
+  }
+
+  .promo-tiers {
+    order: 3;
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+  }
+
+  .promo-tier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    white-space: normal;
+  }
+}
+
+.detail-offer {
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border: 1px dashed var(--gold-dark);
+  background: rgba(255, 182, 39, 0.12);
+  border-radius: var(--radius-md);
+}
+
+.detail-offer-title {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.detail-offer-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.offer-chip {
+  background: var(--white);
+  border: 1px solid var(--gold-dark);
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.offer-chip em {
+  font-style: normal;
+  font-weight: 800;
+  color: var(--pitch);
+}
+
+.detail-offer-note {
+  margin-top: var(--space-2);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+.summary-row[hidden],
+.discount-nudge[hidden] {
+  display: none;
+}
+
+.summary-row.summary-discount {
+  color: var(--pitch);
+  font-weight: 700;
+  gap: var(--space-3);
+}
+
+.summary-row.summary-discount span:last-child {
+  white-space: nowrap;
+}
+
+/* En el resumen (fondo blanco) el botón de contorno necesita un borde visible */
+.cart-summary .btn-outline {
+  border-color: var(--pitch);
+  color: var(--pitch);
+}
+
+.cart-summary .btn-outline:hover {
+  border-color: var(--gold-dark);
+  color: var(--gold-dark);
+}
+
+.discount-nudge {
+  margin-top: var(--space-3);
+  padding: 0.6rem 0.8rem;
+  background: rgba(255, 182, 39, 0.16);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
 }
 
 .detail-desc {

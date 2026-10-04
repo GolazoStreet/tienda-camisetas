@@ -114,8 +114,59 @@ function aplicarConfigTienda() {
   });
 }
 
+/** Euros sin decimales cuando son redondos (8 € en vez de 8,00 €). */
+function formatoEuros(numero) {
+  return Number.isInteger(numero) ? `${numero}\u00A0€` : formatearPrecio(numero);
+}
+
+/** Tramos de la oferta por cantidad definidos en config.js (lista vacía si no hay oferta). */
+function tramosOfertaCantidad() {
+  if (typeof CONFIG === "undefined" || !Array.isArray(CONFIG.descuentosPorCantidad)) return [];
+  return CONFIG.descuentosPorCantidad
+    .filter((t) => Number(t.unidades) > 0 && Number(t.descuento) > 0)
+    .slice()
+    .sort((a, b) => a.unidades - b.unidades);
+}
+
+/**
+ * Barra dorada encima del menú, en TODAS las páginas, para que el cliente
+ * vea la oferta por cantidad nada más entrar. Se genera sola a partir de
+ * CONFIG.descuentosPorCantidad: si cambias los números en config.js, cambia aquí también.
+ */
+function pintarBarraOferta() {
+  const tramos = tramosOfertaCantidad();
+  const header = document.querySelector(".site-header");
+  if (tramos.length === 0 || !header || document.querySelector(".promo-bar")) return;
+
+  const items = tramos
+    .map((t) => `<span class="promo-tier"><span class="promo-qty"><b>${Number(t.unidades)}</b> camisetas</span> <b class="promo-save">−${formatoEuros(Number(t.descuento))}</b></span>`)
+    .join("");
+
+  const barra = document.createElement("div");
+  barra.className = "promo-bar";
+  barra.setAttribute("role", "note");
+  barra.innerHTML = `<div class="promo-bar-inner"><span class="promo-bar-label">Oferta</span><div class="promo-tiers">${items}</div><span class="promo-bar-note">en el total de tu pedido</span></div>`;
+  header.parentNode.insertBefore(barra, header);
+}
+
+/** Cuadro de oferta para la ficha de producto (cadena vacía si no hay oferta). */
+function htmlOfertaCantidad() {
+  const tramos = tramosOfertaCantidad();
+  if (tramos.length === 0) return "";
+  const chips = tramos
+    .map((t) => `<span class="offer-chip"><b>${Number(t.unidades)}</b> camisetas <em>−${formatoEuros(Number(t.descuento))}</em></span>`)
+    .join("");
+  return `
+    <div class="detail-offer">
+      <strong class="detail-offer-title">Oferta por cantidad</strong>
+      <div class="detail-offer-tiers">${chips}</div>
+      <p class="detail-offer-note">Se descuenta del total de tu pedido, mezclando los modelos que quieras.</p>
+    </div>`;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   inicializarMenuMovil();
   marcarNavActivo();
   aplicarConfigTienda();
+  pintarBarraOferta();
 });

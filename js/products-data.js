@@ -63,7 +63,7 @@ const PRODUCTOS = [
     colorSecundario: "#1b4332",
     patron: "liso",
     iniciales: "RM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "mas-vendida",
@@ -81,7 +81,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "AL",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -99,7 +99,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "DA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -117,7 +117,7 @@ const PRODUCTOS = [
     colorSecundario: "#1b4332",
     patron: "liso",
     iniciales: "RC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -135,7 +135,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "AM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -153,7 +153,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "bandas",
     iniciales: "DLS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -171,7 +171,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "UR",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "nueva",
@@ -189,7 +189,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "CVA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -207,7 +207,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "RD",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "nueva",
@@ -225,7 +225,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "BG",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -243,7 +243,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "RCA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -261,7 +261,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "UNC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "mas-vendida",
@@ -279,7 +279,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "AR",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -297,7 +297,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "bandas",
     iniciales: "KFC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -315,7 +315,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "liso",
     iniciales: "HU",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "nueva",
@@ -333,7 +333,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "rayas",
     iniciales: "PR",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -351,7 +351,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "bandas",
     iniciales: "EC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "mas-vendida",
@@ -369,7 +369,7 @@ const PRODUCTOS = [
     colorSecundario: "#1b4332",
     patron: "liso",
     iniciales: "MW",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -387,7 +387,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "RA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -405,7 +405,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "CA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -423,7 +423,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "rayas",
     iniciales: "LU",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "nueva",
@@ -441,7 +441,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "TC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -459,7 +459,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "PU",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "mas-vendida",
@@ -477,7 +477,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "LF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -495,7 +495,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "USC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -513,7 +513,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "VC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -531,7 +531,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "BD",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "mas-vendida",
@@ -549,7 +549,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "bandas",
     iniciales: "RC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -567,7 +567,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "bandas",
     iniciales: "RU",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -585,7 +585,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "nueva",
@@ -603,7 +603,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "TD",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -621,7 +621,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "bandas",
     iniciales: "PCF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "nueva",
@@ -639,7 +639,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "liso",
     iniciales: "PO",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -657,7 +657,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "BA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: "mas-vendida",
@@ -675,7 +675,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "AF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -693,7 +693,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "NO",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Viste los colores de tu equipo con el mismo nivel que se pisa el césped. Camiseta oficial de competición, pensada tanto para el día de partido como para llevarla en la calle. Personalízala con tu nombre y tu número, y súmale el parche de la Liga para llevarla como los profesionales.",
     etiqueta: null,
@@ -711,7 +711,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "liso",
     iniciales: "SI",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -729,7 +729,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -747,7 +747,7 @@ const PRODUCTOS = [
     colorSecundario: "#1b4332",
     patron: "liso",
     iniciales: "SB",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -765,7 +765,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -783,7 +783,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "bandas",
     iniciales: "SC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -801,7 +801,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: "mas-vendida",
@@ -819,7 +819,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SI",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -837,7 +837,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SDN",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: "mas-vendida",
@@ -855,7 +855,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "SA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -873,7 +873,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "ST",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -891,7 +891,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SN",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -909,7 +909,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "liso",
     iniciales: "SO",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: "nueva",
@@ -927,7 +927,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "RC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: "oferta",
@@ -945,7 +945,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "rayas",
     iniciales: "RC8",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -963,7 +963,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "bandas",
     iniciales: "RC8",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: "mas-vendida",
@@ -981,7 +981,7 @@ const PRODUCTOS = [
     colorSecundario: "#1b4332",
     patron: "liso",
     iniciales: "RC9",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -999,7 +999,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "RC9",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -1017,7 +1017,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "bandas",
     iniciales: "RC0",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -1035,7 +1035,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "RC0",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: "nueva",
@@ -1053,7 +1053,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "RVA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: "oferta",
@@ -1071,7 +1071,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "RVG",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: "mas-vendida",
@@ -1089,7 +1089,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "RVA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -1107,7 +1107,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "RVA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -1125,7 +1125,7 @@ const PRODUCTOS = [
     colorSecundario: "#0f2818",
     patron: "liso",
     iniciales: "RVA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Un clásico que nunca pasa de moda. Revive las temporadas más icónicas de la historia del fútbol con esta camiseta retro, fiel al diseño original y con la calidad que merece una pieza de colección. Ideal para quien quiere llevar la nostalgia del fútbol encima, con estilo.",
     etiqueta: null,
@@ -1143,7 +1143,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: "nueva",
@@ -1161,7 +1161,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "SI",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Lleva la camiseta de tu selección con el mismo orgullo con el que se lleva sobre el terreno de juego. Personalízala con tu nombre y dorsal, y añade el parche del Mundial para completar el look de gala.",
     etiqueta: null,
@@ -1179,7 +1179,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "SPA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1197,7 +1197,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPE",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -1215,7 +1215,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "bandas",
     iniciales: "SPF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1233,7 +1233,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SPT",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1251,7 +1251,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1269,7 +1269,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPÓ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1287,7 +1287,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPZ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -1305,7 +1305,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPG",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1323,7 +1323,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "bandas",
     iniciales: "SPV",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1341,7 +1341,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -1359,7 +1359,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "rayas",
     iniciales: "SPH",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1377,7 +1377,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "bandas",
     iniciales: "SPP",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1395,7 +1395,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "liso",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1413,7 +1413,7 @@ const PRODUCTOS = [
     colorSecundario: "#8b1e2f",
     patron: "rayas",
     iniciales: "SPN",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1431,7 +1431,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -1449,7 +1449,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "SPS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1467,7 +1467,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPT",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1485,7 +1485,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "bandas",
     iniciales: "SPR",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -1503,7 +1503,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1521,7 +1521,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "SPÁ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1539,7 +1539,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPB",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1557,7 +1557,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPP",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1575,7 +1575,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPE",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -1593,7 +1593,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "bandas",
     iniciales: "SPR",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1611,7 +1611,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPÓ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1629,7 +1629,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "rayas",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -1647,7 +1647,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "bandas",
     iniciales: "SPO",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1665,7 +1665,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "liso",
     iniciales: "SPÁ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1683,7 +1683,7 @@ const PRODUCTOS = [
     colorSecundario: "#8b1e2f",
     patron: "rayas",
     iniciales: "SPD",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1701,7 +1701,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPT",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1719,7 +1719,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "SPS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -1737,7 +1737,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1755,7 +1755,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "bandas",
     iniciales: "SPG",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1773,7 +1773,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SPV",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -1791,7 +1791,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "SPM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1809,7 +1809,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPB",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1827,7 +1827,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPH",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1845,7 +1845,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPT",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: null,
@@ -1863,7 +1863,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "bandas",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -1881,7 +1881,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1899,7 +1899,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "rayas",
     iniciales: "SPG",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1917,7 +1917,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "bandas",
     iniciales: "SPN",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -1935,7 +1935,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffb627",
     patron: "liso",
     iniciales: "SPP",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1953,7 +1953,7 @@ const PRODUCTOS = [
     colorSecundario: "#8b1e2f",
     patron: "rayas",
     iniciales: "SPQ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1971,7 +1971,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -1989,7 +1989,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "SPM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2007,7 +2007,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPE",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -2025,7 +2025,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "bandas",
     iniciales: "SPL",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2043,7 +2043,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SPS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2061,7 +2061,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -2079,7 +2079,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2097,7 +2097,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2115,7 +2115,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2133,7 +2133,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "bandas",
     iniciales: "SPP",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2151,7 +2151,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPL",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -2169,7 +2169,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "rayas",
     iniciales: "SPÍ",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2187,7 +2187,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "bandas",
     iniciales: "SPF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2205,7 +2205,7 @@ const PRODUCTOS = [
     colorSecundario: "#8b1e2f",
     patron: "rayas",
     iniciales: "SPD",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2223,7 +2223,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPF",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2241,7 +2241,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "SPP",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2259,7 +2259,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPE",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2277,7 +2277,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "bandas",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -2295,7 +2295,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "SPV",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2313,7 +2313,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "rayas",
     iniciales: "SPE",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2331,7 +2331,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "SPO",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -2349,7 +2349,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPL",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2367,7 +2367,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "SPM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2385,7 +2385,7 @@ const PRODUCTOS = [
     colorSecundario: "#4dabf7",
     patron: "bandas",
     iniciales: "SPI",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2403,7 +2403,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "SPC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2421,7 +2421,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "rayas",
     iniciales: "SPL",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "mas-vendida",
@@ -2444,7 +2444,7 @@ const PRODUCTOS = [
     colorSecundario: "#f6c500",
     patron: "liso",
     iniciales: "LIV",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2462,7 +2462,7 @@ const PRODUCTOS = [
     colorSecundario: "#0066b2",
     patron: "rayas",
     iniciales: "BAY",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -2480,7 +2480,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "bandas",
     iniciales: "JUV",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -2498,7 +2498,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "rayas",
     iniciales: "ATM",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2516,7 +2516,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "BVB",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "",
@@ -2534,7 +2534,7 @@ const PRODUCTOS = [
     colorSecundario: "#132257",
     patron: "liso",
     iniciales: "TOT",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -2552,7 +2552,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "bandas",
     iniciales: "BOC",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2570,7 +2570,7 @@ const PRODUCTOS = [
     colorSecundario: "#d0112b",
     patron: "rayas",
     iniciales: "RIV",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "nueva",
@@ -2588,7 +2588,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "bandas",
     iniciales: "FLA",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Edición limitada, fuera de lo común. Un diseño exclusivo pensado para quienes quieren diferenciarse con una camiseta que no vas a ver en cualquier sitio. Calidad premium y un estilo que combina fútbol y actitud, dentro y fuera del campo.",
     etiqueta: "oferta",
@@ -2616,7 +2616,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffd60a",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2634,7 +2634,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2652,7 +2652,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2670,7 +2670,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2688,7 +2688,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "nueva",
@@ -2706,7 +2706,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "mas-vendida",
@@ -2724,7 +2724,7 @@ const PRODUCTOS = [
     colorSecundario: "#c9a227",
     patron: "rayas",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Acabado bicolor con detalles a contraste.",
     etiqueta: "oferta",
@@ -2742,7 +2742,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "",
@@ -2760,7 +2760,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "nueva",
@@ -2778,7 +2778,7 @@ const PRODUCTOS = [
     colorSecundario: "#2b2d21",
     patron: "bandas",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Estampado de estilo militar.",
     etiqueta: "oferta",
@@ -2796,7 +2796,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "",
@@ -2814,7 +2814,7 @@ const PRODUCTOS = [
     colorSecundario: "#ffffff",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2832,7 +2832,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2850,7 +2850,7 @@ const PRODUCTOS = [
     colorSecundario: "#111417",
     patron: "liso",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Un básico que no puede faltar en tu armario.",
     etiqueta: "oferta",
@@ -2868,7 +2868,7 @@ const PRODUCTOS = [
     colorSecundario: "#e63946",
     patron: "rayas",
     iniciales: "GS",
-    tallas: ["XS", "S", "M", "L", "XL"],
+    tallas: ["S", "M", "L", "XL"],
     descripcion:
       "Cortavientos ligero, ideal para entrenar o para el día a día. Tejido cortavientos resistente al agua, cremallera completa y capucha ajustable. Edición limitada con detalles exclusivos.",
     etiqueta: "",
